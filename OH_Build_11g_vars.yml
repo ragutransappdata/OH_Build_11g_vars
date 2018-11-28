@@ -1,0 +1,5 @@
+--- # Oh_build_11g 
+- hosts: [11g] 
+  become: yes
+  roles:
+     - oracle_vars
